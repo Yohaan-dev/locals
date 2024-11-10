@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Adventure | Website</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="relative container mx-auto p-4">
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="mt-3">
+                <img class="h-20 pl-40" src="images/4373175_envira_logo_logos_icon.svg" alt="logo">
+            </div>
+            <!-- Left Items -->
+            <ul class="md:flex space-x-8 hidden md:block">
+                <li><a href="index.html" class="hover:text-lime-600 uppercase underline underline-offset-8">Pricing</a>
+                </li>
+                <li><a href="servicing.html"
+                        class="hover:text-lime-600 uppercase underline underline-offset-8">Servicing</a></li>
+                <li><a href="offers.html" class="hover:text-lime-600 uppercase underline underline-offset-8">Offers</a>
+                </li>
+                <li><a href="community.html"
+                        class="hover:text-lime-600 uppercase underline underline-offset-8">Community</a></li>
+                <li><i
+                        class="fas fa-user bg-lime-900 text-white py-2 px-4 uppercase rounded-lg hover:bg-lime-400 hover:text-white-900"><a
+                            href="login.html">Log
+                            In</a></i></li>
+            </ul>
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="hamburger block md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="mobile-menu"
+                class="absolute hidden flex-col items-center py-6 space-y-4 font-bold left-6 right-6 bg-white text-black self-end sm:w-md sm:self-center drop-shadow-2xl">
+                <a href="#">Pricing</a>
+                <a href="#">Services</a>
+                <a href="#">Offers</a>
+                <a href="#">Community</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Footer -->
+    <footer class="footer bg-slate-900 m-4 p-24">
+        <div
+            class="grid row-span-1 items-center justify-center md:grid-cols-3 gap-4 mr-8 pb-6 md:items-stretch container-sm">
+            <div class="p-4 mt-6 rounded-md bg-slate-800 text-white">
+                <div class="flex flex-row space-x-3 items-center">
+                    <div class="p-2 rounded-sm bg-blue-800"><i class="fas fa-phone fa-lg text-white"></i></div>
+                    <div>
+                        <p class="text-sm">Call Anytime</p>
+                        <p class="font-bold">07-43-955-900</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-4 mt-6 rounded-md bg-slate-800 text-white">
+                <div class="flex flex-row space-x-3 items-center">
+                    <div class="p-2 rounded-sm bg-blue-800"><i class="fas fa-envelope fa-lg text-white"></i></div>
+                    <div>
+                        <p class="text-sm">Email Address</p>
+                        <p class="font-bold">kipruto@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-4 mt-6 rounded-md bg-slate-800 text-white">
+                <div class="flex flex-row space-x-3 items-center">
+                    <div class="p-2 rounded-sm bg-blue-800"><i class="fas fa-clock fa-lg text-white"></i></div>
+                    <div>
+                        <p class="text-sm">Office Hours</p>
+                        <p class="font-bold">8.00AM - 10.00PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid row-span-1 items-center justify-center md:grid-cols-4 md:items-stretch gap-4">
+            <div>
+                <h1 class="text-white font-bold pb-3">Quick Links</h1>
+                <ul>
+                    <li class="text-white text-sm pb-2"><a href="#">About Us</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Our Team</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Pricing</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Blogs</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="text-white font-bold pb-3">Services</h1>
+                <ul>
+                    <li class="text-white text-sm pb-2"><a href="#">Exploring</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Friendship</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Engagement</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Profitable</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Community</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="text-white font-bold pb-3">Information</h1>
+                <ul>
+                    <li class="text-white text-sm pb-2"><a href="#">Working Process</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Privacy Policy/a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Terms $ Conditions</a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Faqs</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="text-white font-bold pb-3">Subscribe Our Newsletter</h1>
+                <p class="text-sm text-white">Get ready to work together for the better solution for your business
+                </p>
+                <form>
+                    <input type="text" class="p-2 mt-3 w-full rounded-lg bg-white outline-none cursor-pointer"
+                        placeholder="Enter Your Email">
+                    <button class="p-2 mt-3 w-full rounded-lg bg-blue-800 text-white cursor-pointer">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-center md:flex-row items-center justify-between mt-16">
+            <p class="text-white text-center text-sm pb-8">Copyright &2024 ~ Infinity MirrorTheme.All rights
+                reserved.
+            </p>
+
+            <div class="flex flex-row items-center justify-center">
+                <a href="#" class="p-2 rounded-md bg-blue-800 mr-2"><i
+                        class="fas fa-brands fa-facebook fa-lg text-white cursor-pointer"></i></a>
+                <a href="#" class="p-2 rounded-md bg-blue-800 mr-2"><i
+                        class="fas fa-brands fa-linkedin fa-lg text-white cursor-pointer"></i></a>
+                <a href="#" class="p-2 rounded-md bg-blue-800 mr-2"><i
+                        class="fas fa-brands fa-x-twitter fa-lg text-white cursor-pointer"></i></a>
+                <a href="#" class="p-2 rounded-md bg-blue-800 mr-2"><i
+                        class="fas fa-brands fa-whatsapp fa-lg text-white cursor-pointer"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
