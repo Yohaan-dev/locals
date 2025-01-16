@@ -20,7 +20,7 @@
                 <img class="h-20 pl-40" src="images/4373175_envira_logo_logos_icon.svg" alt="logo">
             </div>
             <!-- Left Items -->
-            <ul class="md:flex space-x-8 hidden md:block">
+            <ul class="md:flex space-x-8 sm:hidden block">
                 <li><a href="index.html" class="hover:text-lime-600 uppercase underline underline-offset-8">Pricing</a>
                 </li>
                 <li><a href="servicing.html"
@@ -31,7 +31,7 @@
                         class="hover:text-lime-600 uppercase underline underline-offset-8">Community</a></li>
                 <li><i
                         class="fas fa-user bg-lime-900 text-white py-2 px-4 uppercase rounded-lg hover:bg-lime-400 hover:text-white-900"><a
-                            href="login.html">Log
+                            href="login.html" class="pl-2">Log
                             In</a></i></li>
             </ul>
 
@@ -47,19 +47,20 @@
         <div class="md:hidden">
             <div id="mobile-menu"
                 class="absolute hidden flex-col items-center py-6 space-y-4 font-bold left-6 right-6 bg-white text-black self-end sm:w-md sm:self-center drop-shadow-2xl">
-                <a href="#">Pricing</a>
-                <a href="#">Services</a>
-                <a href="#">Offers</a>
-                <a href="#">Community</a>
+                <a href="index.html">Pricing</a>
+                <a href="servicing.html">Services</a>
+                <a href="offers.html">Offers</a>
+                <a href="community.html">Community</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero -->
-    <div class="hero mt-28">
+    <div class="hero mt-0 py-44 bg-scroll" style="background-image: url('images/pexels-taryn-elliott-3889918.jpg')">
         <div class="flex-col items-center justify-between space-y-6">
             <h1 class="text-center text-4xl font-bold">Enjoy Exploring!</h1>
-            <p class="text-lg text-center leading-7">we've got you covered.Get maximum discount next time through
+            <p class="text-lg text-center leading-7 px-4">we've got you covered.Get maximum discount next time
+                through
                 exploring with
                 us.For a frequent adventure
                 you'll atleast experience more with Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorem
@@ -73,14 +74,17 @@
         <div class="md:grid grid-cols-3 gap-3 items-stretch space-y-4 md:space-y-0">
             <!-- Pricing 1 -->
             <div class="p-5 mx-3 px-4 bg-slate-300 border-2 rounded-lg md:rounded-r-lg">
-                <h1 class="uppercase text-lg font-semibold pb-5">Business</h1>
-                <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum illum in tenetur
+                <h1 class="uppercase text-lg font-semibold pb-8">Business</h1>
+                <p class="pb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum
+                    illum
+                    in
+                    tenetur
                     esse iste
                     molestias, impedit eum quam at! Facere quae necessitatibus maxime animi eaque voluptatem deleniti,
                     iure magni.</p>
 
                 <a href="#"
-                    class="bg-lime-900 text-white font-semibold  py-2 px-4 mt-5 uppercase rounded-lg hover:bg-lime-400 hover:text-white-900 text-center block">Select
+                    class="bg-lime-900 text-white font-semibold items-end  py-2 px-4 mt-5 uppercase rounded-lg hover:bg-lime-400 hover:text-white-900 text-center block">Select
                     This Plan</a>
             </div>
 
@@ -106,7 +110,7 @@
 
             <!-- Pricing 3 -->
             <div class="p-5 mx-3 px-4 bg-blue-800 border-2 text-white rounded-lg md:rounded-l-lg">
-                <h1 class="font-semibold uppercase text-lg">Startup</h1>
+                <h1 class="font-semibold uppercase text-lg">Start Up</h1>
                 <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="cursor-pointer"><span class="text-3xl font-bold">$99</span> /Month</div>
                 <ul class="m-4">
@@ -127,10 +131,13 @@
     <section class="cta mt-24 mb-14">
         <h1 class="text-2xl font-bold text-center mb-5 underline underline-offset-8">Explore Our Recent Adventure!</h1>
         <div class="items-stretch md:grid grid-cols-4 gap-3 mx-3 space-y-4 md:space-y-0">
-            <img class="md:rounded-r-lg rounded-lg" src="images/harshil-gudka-aKcVSSDotgo-unsplash.jpg" alt="">
-            <img class="rounded-lg" src="images/pexels-florian-kriechbaumer-1479976889-26926276.jpg" alt="">
-            <img class="rounded-lg" src="images/pexels-gerbert-voortman-157989162-10740862.jpg" alt="">
-            <img class="md:rounded-l-lg rounded-lg" src="images/pexels-isis-petroni-280715053-13142739.jpg" alt="">
+            <img class="md:rounded-r-lg rounded-lg sm:rounded-md" src="images/harshil-gudka-aKcVSSDotgo-unsplash.jpg"
+                alt="">
+            <img class="rounded-lg sm:rounded-md" src="images/pexels-florian-kriechbaumer-1479976889-26926276.jpg"
+                alt="">
+            <img class="rounded-lg sm:rounded-md" src="images/pexels-gerbert-voortman-157989162-10740862.jpg" alt="">
+            <img class="md:rounded-l-lg rounded-lg sm:rounded-md"
+                src="images/pexels-isis-petroni-280715053-13142739.jpg" alt="">
         </div>
     </section>
 
@@ -196,7 +203,7 @@
                 <h1 class="text-white font-bold pb-3">Information</h1>
                 <ul>
                     <li class="text-white text-sm pb-2"><a href="#">Working Process</a></li>
-                    <li class="text-white text-sm pb-2"><a href="#">Privacy Policy/a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Privacy Policy</a></li>
                     <li class="text-white text-sm pb-2"><a href="#">Terms $ Conditions</a></li>
                     <li class="text-white text-sm pb-2"><a href="#">Faqs</a></li>
                 </ul>
@@ -213,7 +220,7 @@
             </div>
         </div>
 
-        <div class="flex flex-col items-center justify-center md:flex-row items-center justify-between mt-16">
+        <div class="flex flex-col items-center justify-center md:flex-row md:items-center md:justify-between mt-16">
             <p class="text-white text-center text-sm pb-8">Copyright &2024 ~ Infinity MirrorTheme.All rights reserved.
             </p>
 

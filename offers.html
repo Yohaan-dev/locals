@@ -20,7 +20,7 @@
                 <img class="h-20 pl-40" src="images/4373175_envira_logo_logos_icon.svg" alt="logo">
             </div>
             <!-- Left Items -->
-            <ul class="md:flex space-x-8 hidden md:block">
+            <ul class="md:flex space-x-8 sm:hidden block">
                 <li><a href="index.html" class="hover:text-lime-600 uppercase underline underline-offset-8">Pricing</a>
                 </li>
                 <li><a href="servicing.html"
@@ -31,7 +31,7 @@
                         class="hover:text-lime-600 uppercase underline underline-offset-8">Community</a></li>
                 <li><i
                         class="fas fa-user bg-lime-900 text-white py-2 px-4 uppercase rounded-lg hover:bg-lime-400 hover:text-white-900"><a
-                            href="login.html">Log
+                            href="login.html" class="pl-2">Log
                             In</a></i></li>
             </ul>
 
@@ -47,10 +47,10 @@
         <div class="md:hidden">
             <div id="mobile-menu"
                 class="absolute hidden flex-col items-center py-6 space-y-4 font-bold left-6 right-6 bg-white text-black self-end sm:w-md sm:self-center drop-shadow-2xl">
-                <a href="#">Pricing</a>
-                <a href="#">Services</a>
-                <a href="#">Offers</a>
-                <a href="#">Community</a>
+                <a href="index.html">Pricing</a>
+                <a href="servicing.html">Services</a>
+                <a href="offers.html">Offers</a>
+                <a href="community.html">Community</a>
             </div>
         </div>
     </nav>
@@ -58,11 +58,14 @@
     <section class="cta mt-24 mb-14">
         <h1 class="text-2xl font-bold text-center mb-5 underline underline-offset-8">Make Friendship Through Connect...
         </h1>
-        <div class="items-stretch md:grid grid-cols-4 gap-3 mx-3 space-y-4 md:space-y-0">
-            <img class="md:rounded-r-lg rounded-lg" src="images/pexels-mohammed-alouani-2947035-27374415.jpg" alt="">
-            <img class="rounded-lg" src="images/pexels-pixabay-34098.jpg" alt="">
-            <img class="rounded-lg" src="images/pexels-pixabay-52981.jpg" alt="">
-            <img class="md:rounded-l-lg rounded-lg" src="images/pexels-taryn-elliott-3889918.jpg" alt="">
+        <div
+            class="items-stretch md:grid grid-cols-4 gap-3 mx-3 space-y-4 md:space-y-0 sm:flex sm:flex-col sm:items-center sm:justify-center sm:mt-8">
+            <img class="md:rounded-r-lg sm:rounded-lg sm:h-50 sm:w-80"
+                src="images/pexels-mohammed-alouani-2947035-27374415.jpg" alt="">
+            <img class="md:rounded-lg sm:rounded-lg sm:h-50 sm:w-80" src="images/pexels-pixabay-34098.jpg" alt="">
+            <img class="md:rounded-lg sm:rounded-lg sm:h-50 sm:w-80" src="images/pexels-pixabay-52981.jpg" alt="">
+            <img class="md:rounded-l-lg sm:rounded-lg sm:h-50 sm:w-80" src="images/pexels-taryn-elliott-3889918.jpg"
+                alt="">
         </div>
     </section>
     <!-- Footer -->
@@ -127,7 +130,7 @@
                 <h1 class="text-white font-bold pb-3">Information</h1>
                 <ul>
                     <li class="text-white text-sm pb-2"><a href="#">Working Process</a></li>
-                    <li class="text-white text-sm pb-2"><a href="#">Privacy Policy/a></li>
+                    <li class="text-white text-sm pb-2"><a href="#">Privacy Policy</a></li>
                     <li class="text-white text-sm pb-2"><a href="#">Terms $ Conditions</a></li>
                     <li class="text-white text-sm pb-2"><a href="#">Faqs</a></li>
                 </ul>
@@ -145,7 +148,7 @@
             </div>
         </div>
 
-        <div class="flex flex-col items-center justify-center md:flex-row items-center justify-between mt-16">
+        <div class="flex flex-col items-center justify-center md:flex-row md:items-center md:justify-between mt-16">
             <p class="text-white text-center text-sm pb-8">Copyright &2024 ~ Infinity MirrorTheme.All rights
                 reserved.
             </p>
